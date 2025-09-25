@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Nenad">
+  <link rel="stylesheet" href="../stil/style.css">
+  <title>Bokning</title>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <table>
+    <tr>
+      <td><a href="../index.html">HEM</a></td>
+      <td><a href="./chokladprovning.html">CHOKLADPROVNING</a></td>
+      <td><a href="#">BOKNING</a></td>
+      <td><a href="./omkakao.html">OM KAKAOTRÄDET</a></td>
+    </tr>
+  </table>
+
+  <!-- Sidhuvud -->
+  <h1>Café Choco-Latte</h1>
+  <h2>Fantastiskt kaffe & läckra bakverk</h2>
+  <p>
+    Vi vill vara en kaffeoas där du känner de intensiva dofterna från kaffet
+    när du kliver in genom dörren. Vi är en plats där du för varje kopp kaffe
+    och bakverk ska uppleva en sann njutning och smaksensation.
+    Vi vill ge dig hög kvalitet utan att tumma på rättvisan gentemot kaffe- och kakoodlarna.
+  </p>
+
+  <!-- Bokningsformulär -->
+  <h2>Boka Chokladprovning</h2>
+  <form action="" method="POST">
+    <!-- Datum -->
+    <fieldset>
+      <legend>Välj datum:</legend>
+      <input style="margin-top: 8pt;" type="radio" id="30april" name="datum" />
+      <label for="30april">30 april</label><br />
+      <input style="margin-top: 8pt;" type="radio" id="2maj" name="datum" />
+      <label for="2maj">2 maj</label><br />
+      <input style="margin-top: 8pt;" type="radio" id="7maj" name="datum" />
+      <label for="7maj">7 maj</label><br />
+      <input style="margin-top: 8pt;" type="radio" id="9maj" name="datum" />
+      <label for="9maj">9 maj</label><br />
+      <input style="margin-top: 8pt;" type="radio" id="14maj" name="datum" />
+      <label for="14maj">14 maj</label><br />
+      <input style="margin-top: 8pt;" type="radio" id="16maj" name="datum" />
+      <label for="16maj">16 maj</label><br />
+    </fieldset>
+
+    <!-- Antal personer -->
+    <fieldset>
+      <legend>Välj antal personer:</legend>
+      <label for="antal"></label>
+      <select name="antal" id="antal">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </select>
+    </fieldset>
+
+    <!-- Kontaktuppgifter -->
+    <fieldset>
+      <legend>Fyll i dina uppgifter</legend>
+      <label for="fornamn">Förnamn:</label>
+      <input style="margin-top: 8pt;" type="text" id="fornamn" name="fornamn" required><br />
+
+      <label for="efternamn">Efternamn:</label>
+      <input style="margin-top: 8pt;" type="text" id="efternamn" name="efternamn" required><br />
+
+      <label for="mobilnummer">Mobil:</label>
+      <input style="margin-top: 8pt;" type="tel" id="mobilnummer" name="mobilnummer" placeholder="xxxx xxxxxx"
+        required><br />
+
+      <label for="email">Epost:</label>
+      <input style="margin-top: 8pt;" type="email" id="email" name="email" required><br />
+
+      <label for="meddelande">Meddelande:</label><br />
+      <textarea style="margin-top: 8pt;" rows="3" cols="40" id="meddelande" name="meddelande"></textarea>
+    </fieldset>
+
+    <!-- Skicka -->
+    <input type="submit" value="Bekräfta bokning" name="boka" />
+  </form>
+
+  <!-- Footer -->
+  <footer><br>
+    <hr>&copy; Copyright 2025 | Café Choco-Latte
+  </footer>
+</body>
+
+</html>
