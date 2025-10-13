@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Cooking</title> 
+    <meta name="description" content="The Home Cooking app lets you browse recipes provided by TheMealDB API">
+    <meta name="author" content="Nenad Sekulic">  
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="preconnect" href="https://www.themealdb.com">
+    <script src="js/index.js" type="module"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Home Cooking</h1>
+        <nav>
+            <ul>
+                <li id="selected-page"><a href="index.html">Home</a></li>
+                <li><a href="html/recipes.html">Recipes</a></li>
+                <li><a href="html/inspiration.html">Inspiration</a></li>
+                <li><a href="html/about.html">About us</a></li>
+                <li><a href="html/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="index">
+        <div class="left">
+            <div id="intro">
+                <h2>Cook with what you have</h2>
+                <p>
+                    Welcome to Home Cooking! A quick, reliable recipes you can make with the ingredients you already have.
+                    Whether you’re new in the kitchen or a seasoned cook, you’ll find dinner ideas that just work.
+                    <br><br>
+                    Search by ingredient, explore new cuisines, and filter for what matters to you - vegetarian, vegan,
+                    gluten-free and more.
+                    <br><br>
+                    Open your pantry, pick a few ingredients, and we’ll show you what’s possible. Simple steps, everyday staples,
+                    great results.
+                    <br><br>
+                </p>
+                <h3>What you’ll find</h3>
+                <p>
+                    A growing set of dependable recipes for busy nights and slow weekends alike. Short ingredient lists,
+                    clear steps, and tips along the way. Expect one-pan dinners, quick pastas, hearty soups, bright salads,
+                    and simple sweets you can pull off without special gear.
+                    <br><br>
+                    We pride ourselves on being an inclusive platform, welcoming all target audiences to join our gastronomic journey.
+                    Our recipes cater to various dietary preferences, including vegetarian, vegan, gluten-free, and more, ensuring that every palate finds its perfect match.
+                    <br>
+                    Let us inspire you to create delicious meals with the ingredients you have on hand. 
+                    <br><br>
+                    Whether you're looking for a quick weeknight dinner, a special occasion feast, or simply want to explore new flavors, Home Cooking has got you covered.
+                    <br><br>
+                </p>
+                
+                <h3>Ready?</h3>
+                <p>
+                    Start with today’s recommended meal on to the side, or search for something you’re craving.
+                    Small steps, simple techniques, delicious results - that’s Home Cooking.
+                </p>
+                <h2 class="firstpage-links"><a href="html/about.html">Read more about us ></a></h2>
+            </div>
+        </div>    
+
+        <div class="right">
+            <h2>Recommended meal</h2>
+            
+            <h3 id="meal-title">Loading meal...</h3>
+            <img id="meal-img" src="assets/images/transparent.png" alt="Loading meal image...">
+            <p id="meal-instructions">Loading instructions...</p>
+            <h2 class="firstpage-links"><a href="html/recipes.html">Find more recipes ></a></h2>
+        </div>
+    </main>
+
+    <footer>
+        <div id="info">
+            <h1>Home Cooking</h1>
+            <p>2025</p>
+        </div>
+        
+        <div id="pages">
+            <h2>Pages</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="html/recipes.html">Recipes</a></li>
+                <li><a href="html/inspiration.html">Gallery</a></li>
+                <li><a href="html/about.html">About us</a></li>
+                <li><a href="html/contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div id="socials">
+            <h2>Socials</h2>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <img class="logo" src="assets/images/facebook-logo.png" alt=" The Facebook logo.">
+                        Facebook
+                    </a>
+                </li>
+
+                <li>
+                    <a href="index.html">
+                        <img class="logo" src="assets/images/twitter-logo.png" alt="The Twitter logo.">
+                        Twitter
+                    </a>
+                </li>
+
+                <li>
+                    <a href="index.html">
+                        <img class="logo" src="assets/images/instagram-logo.png" alt="The Instagram logo.">
+                        Instagram
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <h2 id="site-email"><a href="mailto:contact@homecooking.com">contact@homecooking.com</a></h2>
+    </footer>
+</body>
+
+</html>

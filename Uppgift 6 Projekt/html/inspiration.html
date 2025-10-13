@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home cooking</title>  
+    <meta name="description" content="The Home Cooking app lets you browse recipes provided by TheMealDB API">
+    <meta name="author" content="Nenad Sekulic">   
+    <link rel="stylesheet" href="../css/normalize.css" type="text/css"> 
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="preconnect" href="https://www.themealdb.com">
+    <script src="../js/inspiration.js" type="module"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Home cooking</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li id="selected-page"><a href="inspiration.html">Inspiration</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="inspiration">
+        <h2>Today’s popular dishes!</h2>
+
+        <div id="table-container">
+            <table id="top-table" class="table">
+                <tr>
+                    <td><img class="dish-img" src="/assets/images/transparent.png" alt="random meal image" loading="lazy"></td>
+                    <td><img class="dish-img" src="/assets/images/transparent.png" alt="random meal image" loading="lazy"></td>
+                    <td><img class="dish-img" src="/assets/images/transparent.png" alt="random meal image" loading="lazy"></td>
+                    <td><img class="dish-img" src="/assets/images/transparent.png" alt="random meal image" loading="lazy"></td>
+                </tr>   
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <div id="info">
+            <h1>Home cooking</h1>
+            <p>2025</p>
+        </div>
+        
+        <div id="pages">
+            <h2>Pages</h2>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="inspiration.html">Inspiration</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div id="socials">
+            <h2>Socials</h2>
+            <ul>
+                <li>
+                    <a href="inspiration.html">
+                        <img class="logo" src="../assets/images/facebook-logo.png" alt=" The Facebook logo.">
+                        Facebook
+                    </a>
+                </li>
+
+                <li>
+                    <a href="inspiration.html">
+                        <img class="logo" src="../assets/images/twitter-logo.png" alt="The Twitter logo.">
+                        Twitter
+                    </a>
+                </li>
+
+                <li>
+                    <a href="inspiration.html">
+                        <img class="logo" src="../assets/images/instagram-logo.png" alt="The Instagram logo.">
+                        Instagram
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <h2 id="site-email"><a href="mailto:contact@homecooking.com">contact@homecooking.com</a></h2>
+    </footer>
+</body>
+
+</html>
